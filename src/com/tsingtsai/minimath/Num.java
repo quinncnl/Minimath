@@ -20,8 +20,7 @@ public class Num implements Expression {
 
     public boolean isNumeric(String str)
     {
-        return str.matches("\\d+");  //match a number with optional '-' and decimal.
-
+        return str.matches("\\d+");
     }
 
 }

@@ -16,7 +16,7 @@ public class RepetitionExpression implements Expression {
 
         while (repetition.recognize(context)) {}
 
-        if (context.reachLast()) {
+        if (context.reachEnd()) {
             return true;
         }
         return false;

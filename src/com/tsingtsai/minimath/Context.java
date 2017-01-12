@@ -38,7 +38,7 @@ public class Context {
         index = _index;
     }
 
-    public boolean reachLast() {
+    public boolean reachEnd() {
         return (getIndex() == tokens.size());
     }
 
